@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background: linear-gradient(180deg, #374151 0%, #111827 82%);
+}
+
+.page-header {
+  padding: 72px 180px;
+}
+
+.logo {
+  font-size: 18px;
+}
+
+.logo img {
+  width: 126px;
+  height: 35px;
+}
+
+.hidden {
+  font-size: 0;
+  line-height: 0;
+  color: transparent;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-nav {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main-nav ul {
+  list-style: none;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.search-form {
+  position: relative;
+}
+
+.search-form img {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  height: 14px;
+  width: 14px;
+}
+
+.search-form input {
+  height: 40px;
+  width: 224px;
+  padding-left: 49px;
+  background: #273140;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  border-radius: 100px;
+}
+
+.search-form input::placeholder {
+  color: #a9adb3;
+}
+
+.post-meta {
+  text-align: center;
+  color: #a9adb3;
+  margin-bottom: 14px;
+}
+
+.post-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 158%;
+  max-width: 40%;
+  margin: 0 auto 30px;
+}
+
+.author {
+  margin: 0 auto 30px;
+  width: fit-content;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.author-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+}
+
+.author-job {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 175%;
+  color: #a9adb3;
+}
+
+.post-hero-image {
+  display: block;
+  width: 66%;
+  margin: 0 auto 30px;
+}
+
+.post-paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  width: 60%;
+  margin: 0 auto 30px;
+}
+
+.page-footer {
+  padding: 77px 180px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  color: #a9adb3;
+}
